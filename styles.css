@@ -28,17 +28,21 @@ h1 {
 }
 
 .qcard {
-  text-align: center;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   border: solid;
   border-color: black;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.buttoncenter {
   display: flex;
   justify-content: center;
 }
@@ -64,6 +68,8 @@ h2 {
 
 .categories {
   display: flex;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .tag {
