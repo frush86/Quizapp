@@ -49,6 +49,12 @@ h1 {
   display: flex;
 }
 
+.tag {
+  width: 60px;
+  background-color: lightgrey;
+  margin: 10px;
+}
+
 footer {
   display: flex;
   position: fixed;
