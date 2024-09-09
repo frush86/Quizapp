@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 80%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  position: static;
+  padding: 10px;
+  margin-top: 0px;
+  width: 100%;
+  background-color: violet;
+  color: bisque;
+}
+
+.qcard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.bookmark {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.categories123 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: violet;
+}
+
+.navfooter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.active {
+  background-color: bisque;
+}
