@@ -45,11 +45,10 @@ h1 {
   top: -10px;
 }
 
-.categories123 {
-  width: 100%;
+.categories-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 footer {
