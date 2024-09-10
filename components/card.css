@@ -1,0 +1,38 @@
+.qcard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.buttoncenter {
+  display: flex;
+  justify-content: center;
+}
+
+.bookmark {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  font-size: 40px;
+}
+
+.categories {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tag {
+  width: 80px;
+  background-color: lightgrey;
+  margin: 5px;
+}

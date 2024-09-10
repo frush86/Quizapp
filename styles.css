@@ -1,99 +1,24 @@
+@import "./themes.css";
+@import "./global.css";
+@import "./components/header.css";
+@import "./components/card.css";
+@import "./components/showanswer.css";
+@import "./components/footer.css";
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-body {
+/* PROFILE CSS */
+
+.counter {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  width: 80%;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  position: static;
-  padding: 10px;
-  margin-top: 0px;
-  width: 100%;
-  background-color: violet;
-  color: bisque;
-}
-
-.qcard {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  border: solid;
-  border-color: black;
-  border-radius: 5px;
-  margin-bottom: 50px;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
-}
-
-.buttoncenter {
-  display: flex;
-  justify-content: center;
-}
-
-.showanswer {
-  display: flex;
-  width: 150px;
-  justify-content: center;
-  border: solid;
-}
-
-.showanswer:hover {
-  background-color: violet;
-  cursor: pointer;
-}
-
-.bookmark {
-  position: absolute;
-  right: -5px;
-  top: -5px;
-  font-size: 40px;
-}
-
-.categories {
-  display: flex;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.tag {
-  width: 80px;
-  background-color: lightgrey;
-  margin: 5px;
-}
-
-footer {
-  display: flex;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  background-color: violet;
-}
-
-.navfooter {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  list-style-type: none;
-}
-
-.active {
-  background-color: bisque;
+  width: 60%;
+  margin-top: 50px;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
 }

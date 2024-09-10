@@ -1,0 +1,10 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  position: static;
+  padding: 10px;
+  margin-top: 0px;
+  width: 100%;
+  background-color: var(--headerfootercolor);
+  color: bisque;
+}

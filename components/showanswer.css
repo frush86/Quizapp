@@ -1,0 +1,11 @@
+.showanswer {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  border: solid;
+}
+
+.showanswer:hover {
+  background-color: violet;
+  cursor: pointer;
+}
