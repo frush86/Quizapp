@@ -9,7 +9,24 @@
   <script src="./index.js" defer></script>
   <body>
     <h1>Quiz App 🤔⁉️</h1>
-    <main>FORM</main>
+    <main>
+      <!--FORM-->
+      <form class="form">
+        <!--FIELDSET-->
+        <fieldset aria-labelledby="create your question">
+          <legend>Create your own Question here:</legend>
+
+          <!--QUESTION-->
+          <label for="your-question">Your question:</label>
+          <input type="text" id="your-question" />
+          <!--ANSWER-->
+          <label for="your-answer">Your answer:</label>
+          <input type="text" id="your-answer" />
+          <!--SEND IT!-->
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
     <footer>
       <ul class="navfooter">
         <li><a href="index.html">Home</a></li>

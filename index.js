@@ -39,10 +39,10 @@ showanswer.addEventListener("click", () => {
     answerComputedStyle.visibility === "hidden" ||
     answer.style.visibility === "hidden"
   ) {
-    answer.style.visibility = "visible"; // Show the answer
-    showanswer.textContent = "Hide Answer"; // Update button text
+    answer.style.visibility = "visible"; // Show
+    showanswer.textContent = "Hide Answer"; // Update button
   } else {
-    answer.style.visibility = "hidden"; // Hide the answer
-    showanswer.textContent = "Show Answer"; // Update button text
+    answer.style.visibility = "hidden"; // Hide
+    showanswer.textContent = "Show Answer"; // Update button
   }
 });

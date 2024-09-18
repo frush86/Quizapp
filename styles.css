@@ -4,6 +4,7 @@
 @import "./components/card.css";
 @import "./components/showanswer.css";
 @import "./components/footer.css";
+@import "./components/form.css";
 
 *,
 *::before,
