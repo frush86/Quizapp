@@ -10,21 +10,25 @@
   <body>
     <h1>Quiz App 🤔⁉️</h1>
     <main>
+      <!--QUESTION BOX-->
       <section class="qcard">
+        <!--FLAG BOOKMARKS toogle in JS-->
         <div class="bookmark" data-js="bookmark" aria-label="white flag">
           🏳️
         </div>
-        <h2>What property flips the axes in flexbox?</h2>
-        <div class="buttoncenter">
-          <button class="showanswer" data-js="showanswer">Show answer</button>
-        </div>
+        <h2 class="question">QUESTION #1</h2>
+        <!--BUTTON SHOWANSWER-->
+        <button class="showanswer" data-js="showanswer">Show answer</button>
+        <!--ANSWER show and hide in JS-->
         <article class="answer" data-js="answer">THIS IS THE ANSWER</article>
-        <div class="categories">
-          <span class="tag">#html</span>
-          <span class="tag">#flexbox</span>
-          <span class="tag">#css</span>
-        </div>
+        <!-- TAGS-->
+        <ul class="categories">
+          <li class="tag">#first tag</li>
+          <li class="tag">#second tag</li>
+          <li class="tag">#third tag</li>
+        </ul>
       </section>
+      <!--/QUESTION BOX-->
     </main>
     <footer>
       <ul class="navfooter">

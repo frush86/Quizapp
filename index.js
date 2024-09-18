@@ -30,13 +30,19 @@ bookmark.addEventListener("click", () => {
 const showanswer = document.querySelector('[data-js="showanswer"]');
 const answer = document.querySelector('[data-js="answer"]');
 
+// Set initial state based on computed visibility
+const answerComputedStyle = window.getComputedStyle(answer);
+
 showanswer.addEventListener("click", () => {
-  console.log("show pls");
-  if (answer.style.visibility === "hidden") {
-    answer.style.visibility = "visible";
-    showanswer.textContent = "Hide Answer";
+  // Get the computed visibility to check the actual state
+  if (
+    answerComputedStyle.visibility === "hidden" ||
+    answer.style.visibility === "hidden"
+  ) {
+    answer.style.visibility = "visible"; // Show the answer
+    showanswer.textContent = "Hide Answer"; // Update button text
   } else {
-    answer.style.visibility = "hidden";
-    showanswer.textContent = "Show Answer";
+    answer.style.visibility = "hidden"; // Hide the answer
+    showanswer.textContent = "Show Answer"; // Update button text
   }
 });

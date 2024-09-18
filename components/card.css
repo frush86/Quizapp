@@ -1,6 +1,8 @@
 .qcard {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   border: solid;
   border-color: black;
@@ -9,13 +11,7 @@
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
-}
-
-.buttoncenter {
-  display: flex;
-  justify-content: center;
+  color: purple;
 }
 
 .answer {
@@ -40,6 +36,7 @@ h2 {
 }
 
 .tag {
+  list-style-type: none;
   width: 80px;
   background-color: lightgrey;
   margin: 5px;
