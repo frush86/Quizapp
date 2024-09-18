@@ -6,26 +6,37 @@
     <title>Quiz-App</title>
     <link rel="stylesheet" type="text/css" href="/styles.css" />
   </head>
-  <script src="./index.js" defer></script>
+  <script src="./form.js" defer></script>
   <body>
     <h1>Quiz App 🤔⁉️</h1>
     <main>
       <!--FORM-->
-      <form class="form">
+      <form class="form" data-js="form">
         <!--FIELDSET-->
         <fieldset aria-labelledby="create your question">
           <legend>Create your own Question here:</legend>
 
           <!--QUESTION-->
           <label for="your-question">Your question:</label>
-          <input type="text" id="your-question" />
+          <textarea
+            type="text"
+            id="yourQuestion"
+            name="yourQuestion"
+          ></textarea>
           <!--ANSWER-->
+
           <label for="your-answer">Your answer:</label>
-          <input type="text" id="your-answer" />
+          <textarea type="text" id="yourAnswer" name="yourAnswer"></textarea>
+          <!--TAG-->
+
+          <label for="your-tag">Tags please:</label>
+          <input type="text" id="yourTag" name="yourTag" />
           <!--SEND IT!-->
           <button type="submit">Submit</button>
         </fieldset>
       </form>
+      <!--NEW CARD-->
+      <section id="cardContainer" data-js="cardContainer"></section>
     </main>
     <footer>
       <ul class="navfooter">

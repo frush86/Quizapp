@@ -30,11 +30,11 @@ bookmark.addEventListener("click", () => {
 const showanswer = document.querySelector('[data-js="showanswer"]');
 const answer = document.querySelector('[data-js="answer"]');
 
-// Set initial state based on computed visibility
+// computed visibility
 const answerComputedStyle = window.getComputedStyle(answer);
 
 showanswer.addEventListener("click", () => {
-  // Get the computed visibility to check the actual state
+  // computed visibility check
   if (
     answerComputedStyle.visibility === "hidden" ||
     answer.style.visibility === "hidden"
