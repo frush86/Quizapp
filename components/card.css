@@ -18,11 +18,19 @@ h2 {
   justify-content: center;
 }
 
+.answer {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
 .bookmark {
   position: absolute;
   right: -5px;
   top: -5px;
   font-size: 40px;
+}
+.bookmark:hover {
+  cursor: pointer;
 }
 
 .categories {
