@@ -41,24 +41,3 @@ showanswer.addEventListener("click", () => {
     showanswer.innerText = "Show answer"; // button
   }
 });
-
-/*
-
-// computed visibility
-const answerComputedStyle = window.getComputedStyle(answer);
-
-showanswer.addEventListener("click", () => {
-  // computed visibility check
-  if (
-    answerComputedStyle.visibility === "hidden" ||
-    answer.style.visibility === "hidden"
-  ) {
-    answer.style.visibility = "visible"; // Show
-    showanswer.textContent = "Hide Answer"; // Update button
-  } else {
-    answer.style.visibility = "hidden"; // Hide
-    showanswer.textContent = "Show Answer"; // Update button
-  }
-});
-
-*/
