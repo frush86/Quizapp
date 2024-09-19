@@ -17,7 +17,7 @@ h2 {
 .answer {
   display: flex;
   justify-content: center;
-  visibility: hidden;
+  display: none;
 }
 
 .bookmark {

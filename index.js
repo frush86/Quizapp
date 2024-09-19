@@ -30,6 +30,20 @@ bookmark.addEventListener("click", () => {
 const showanswer = document.querySelector('[data-js="showanswer"]');
 const answer = document.querySelector('[data-js="answer"]');
 
+showanswer.addEventListener("click", () => {
+  if (answer.style.display === "none") {
+    // Show
+    answer.style.display = "block";
+    showanswer.innerText = "Hide answer"; // button
+  } else {
+    // Hide
+    answer.style.display = "none";
+    showanswer.innerText = "Show answer"; // button
+  }
+});
+
+/*
+
 // computed visibility
 const answerComputedStyle = window.getComputedStyle(answer);
 
@@ -46,3 +60,5 @@ showanswer.addEventListener("click", () => {
     showanswer.textContent = "Show Answer"; // Update button
   }
 });
+
+*/
