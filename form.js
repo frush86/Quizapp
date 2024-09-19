@@ -3,7 +3,7 @@ const cardContainer = document.querySelector('[data-js="cardContainer"]');
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-
+  // GET ALL DATA
   const formData = new FormData(event.target);
   const data = Object.fromEntries(formData);
 
@@ -27,6 +27,8 @@ form.addEventListener("submit", (event) => {
   newCard.append(tag);
 
   cardContainer.append(newCard);
+
+  form.reset();
 });
 
 /*
