@@ -28,8 +28,8 @@ form.addEventListener("submit", (event) => {
         <!-- TAGS-->
         <ul class="categories">
           <li class="tag">${data.yourTag}</li>
-          <li class="tag">#second tag</li>
-          <li class="tag">#third tag</li>
+          <li class="tag">#empty</li>
+          <li class="tag">#empty</li>
         </ul>
       </section>
       <!--/QUESTION BOX-->
